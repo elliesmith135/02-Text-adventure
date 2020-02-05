@@ -84,8 +84,8 @@ def update(game,items,current,response):
     
     for item in c ["items"]:
         if response == "GET " + item["item"] and not check_inventory(item["item"]):
-            print(item["take]"])
-            inventory.append(item["items"])
+            print(item["take"])
+            inventory.append(item["item"])
             return current
 
     for i in inventory:
