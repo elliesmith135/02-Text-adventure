@@ -36,9 +36,74 @@
 			"target": "ENGINEERING"
         },
         { 
-            "exit": "SICKBAY",
-            "target": "SICKBAY"     
+            "exit": "FRONT DECK",
+            "target": "FRONT DECK"     
         }],
         "items":[]
     }
+	,"FRONT DECK": {
+		"name": "Front Deck of ship",
+		"desc": "You are at the front deck of the ship. The ship jerks and you grab onto the railing for support.",
+		"exits": [{
+			"exit": "BEDROOM",
+			"target": "BEDROOM"
+		}, 
+		{
+			"exit": "TURBOLIFT",
+			"target": "TURBOLIFT"
+		}],
+		"items": []
+	}
+	,"BEDROOM": {
+		"name": "Private Bedroom",
+		"desc": "You are in your personal bedroom. The bed is made and there is a small lamp on a side table.",
+		"exits": [{
+			"exit": "CONTROL ROOM",
+			"target": "CONTROL ROOM"
+		}, 
+		{
+			"exit": "TURBOLIFT",
+			"target": "TURBOLIFT"
+		}],
+		"items": []	
+	}
+	,"CONTROL ROOM": {
+		"name": "Control Room",
+		"desc": "You have entered into the control room. Many noises are coming from the machines and you look at all the supplies.",
+		"exits": [{
+			"exit": "KITCHEN",
+			"target": "KITCHEN"
+		}, 
+		{
+			"exit": "TURBOLIFT",
+			"target": "TURBOLIFT"
+		}],
+		"items": []
+	}
+	,"KITCHEN": {
+		"name": "Ship Kitchen",
+		"desc": "You are in the ship's kitchen. You open the cabinets looking for something to eat. You see a bag of chips.",
+		"exits": [{
+			"exit": "LOUNGE",
+			"target": "LOUNGE"
+		}, 
+		{
+			"exit": "TURBOLIFT",
+			"target": "TURBOLIFT"
+		}],
+		"items": []
+	}
+	,"LOUNGE": {
+		"name": "Ship Lounge",
+		"desc": "You are in the ship's lounge. You sit down on a sofa and relax. While you relax, you notice a small object in the corner of the room.",
+		"exits": [{
+			"exit": "READY ROOM",
+			"target": "READYROOM"
+		}, 
+		{
+			"exit": "TURBOLIFT",
+			"target": "TURBOLIFT"
+		}],
+		"items": []		
+	}
 }
